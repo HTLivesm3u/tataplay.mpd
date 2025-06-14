@@ -9,7 +9,7 @@ export default function handler(req, res) {
   }
 
   // Redirect to the manifest.mpd with the provided ID
-  const target = `http://amit-1.allinonereborn.in/tplaydrm192/manifest.mpd?id=${id}`;
+  const target = `http://amit-1.allinonereborn.in/tplaydrm145/manifest.mpd?id=${id}`;
   res.writeHead(302, { Location: target });
   res.end();
 }
